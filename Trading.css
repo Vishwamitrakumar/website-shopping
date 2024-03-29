@@ -1,0 +1,431 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: 'Roboto', sans-serif;
+}
+
+body {
+     background-color: #eeee;
+}
+
+nav {
+     display: flex;
+     justify-content: space-between;
+     background-color: #eee;
+     padding: 5px;
+     box-shadow: 0px 2px 6px 2px gray;
+     position: sticky;
+     top: 0px;
+     z-index: 10px;
+     width: 100%;
+}
+
+nav .logo {
+     margin-left: 22px;
+     font-size: 24px;
+
+}
+.logo h4{
+     background: linear-gradient(170deg, #153677, #4e085f, red);
+    -webkit-background-clip:text;
+    color: transparent;
+}
+ul {
+     margin-right: 45px;
+}
+
+nav ul li {
+     list-style: none;
+}
+
+ul li a {
+     margin-inline: 22px;
+     font-size: 20px;
+}
+
+ul li i {
+     font-size: 20px;
+}
+
+ul li a {
+     color: black;
+}
+
+ul li a:hover {
+     border-bottom: 2px solid rgb(41, 194, 194);
+     cursor: pointer;
+}
+
+.main {
+     display: flex;
+     justify-content: space-around;
+}
+
+.main .mainText {
+     margin-top: 200px;
+     font-size: 24px;
+
+}
+
+.trending_item_text {
+     color: red;
+}
+
+.img {
+     width: 550px;
+     height: 650px;
+     padding-top: 110px;
+     border-radius: 10px;
+     mix-blend-mode:multiply;
+}
+
+.mainText h1 {
+     font-size: 64px;
+
+}
+
+.mainText .top {
+     color: aqua;
+}
+
+.mainText button {
+     width: 145px;
+     height: 40px;
+     background-color: rgb(69, 199, 199);
+     font-size: 22px;
+     color: white;
+      cursor: pointer;
+     border:3px solid transparent;
+     border-image:linear-gradient(130deg,purple, magenta);
+     border-image-slice: 1;
+    
+}
+
+.mainText button:hover {
+   
+     background-color: black;
+     color: aqua;
+}
+
+.trend .head h1 {
+     text-align: center;
+     padding: 33px;
+     margin-top: 32px;
+
+}
+
+.head span {
+     color: aqua;
+}
+
+.card {
+     margin-top: 20px;
+     display: flex;
+     justify-content: center;
+}
+
+.card .crd {
+     width: 300px;
+     height: 500px;
+     background-color: white;
+     margin-inline: 11px;
+
+}
+
+.crd img {
+     width: 85%;
+     padding: 30px;
+     border-radius: 20px;
+
+}
+
+.crdText {
+     margin-left: 25px;
+     padding: 5px;
+
+}
+
+.crdText button {
+     width: 110px;
+     height: 33px;
+     border: none;
+     border-radius: 5px;
+     background-color: aqua;
+     color: white;
+     font-size: 20px;
+     margin-top: 11px;
+     cursor: pointer;
+}
+.crdText button:hover{
+     background-color: rgb(19, 216, 216);
+}
+
+.crdText i {
+     color: rgb(245, 245, 15);
+}
+.crd:hover{
+     background-color: black;
+     color:#fff;
+}
+.trends {
+     margin: 30px;
+}
+
+.trends .head {
+     display: flex;
+     justify-content: center;
+
+}
+
+.blog {
+     display: flex;
+     justify-content: center;
+     width: 500px;
+     height: 300px;
+     background-color: white;
+     margin-inline: 22px;
+     border-radius: 11px;
+     transition: 0.6s ease;
+}
+.blog img {
+     padding: 22px;
+     width: 85%;
+
+}
+
+.blogText {
+     padding: 22px;
+     margin-top: 33px;
+
+}
+
+.blogText a {
+     width: 130px;
+     padding: 5px;
+     background-color: aqua;
+     color: white;
+     font-size: 18px;
+     height: 18px;
+     border-radius: 5px;
+     position: relative;
+     top: 33px;
+     text-decoration: none;
+
+}
+
+.blog:hover {
+     width: 520px;
+     height: 320px;
+     background-color: black;
+     color: #eee;
+}
+.blogText a:hover{
+     background-color: rgb(53, 213, 213);
+}
+.letter {
+     background-color: blue;
+     display: flex;
+     justify-content: space-between;
+     padding: 43px;
+}
+
+.inp {
+     display: flex;
+     padding: none;
+}
+
+.inp input {
+     width: 330px;
+     height: 33px;
+     outline: none;
+     font-size: 18px;
+     border: none;
+     padding: 1px;
+}
+
+.inp button {
+     width: 100px;
+     height: 35px;
+     background-color: aqua;
+     color: white;
+     border: none;
+     cursor: pointer;
+}
+
+.footer {
+     display: flex;
+     justify-content: center;
+     padding: 53px;
+}
+
+.footer .footerText {
+     margin-inline: 85px;
+
+}
+
+.footerText p {
+     margin-top: 11px;
+
+}
+
+.aboutus {
+     background-color: blue;
+     color: white;
+     padding: 56px;
+     font-size: 22px;
+}
+
+.abouttext {
+     margin-left: 20px;
+     align-items: center;
+
+}
+
+.abouttext a {
+     width: 130px;
+     padding: 5px;
+     background-color: aqua;
+     color: white;
+     font-size: 18px;
+     height: 18px;
+     text-decoration: none;
+
+}
+
+.me {
+     display: flex;
+     justify-content: center;
+     width: 700px;
+     background-color: #fff;
+     padding: 33px;
+     margin-left: 24%;
+
+}
+
+
+.me img {
+     width: 54%;
+     height: 300px;
+     border-radius: 10px;
+
+
+}
+
+.about {
+     display: none;
+}
+
+.footericon {
+     display: flex;
+     justify-content: center;
+     border-top: gray 1px solid;
+}
+
+.footericon img {
+     width: 40px;
+     height: 30px;
+     border-radius: 50%;
+     padding-left: 5px;
+     cursor: pointer;
+}
+.footericon img:hover{
+    opacity: 0.6;
+  
+}
+
+.crd img {
+     height: 300px;
+     border-radius: 5px;
+}
+
+.contet {
+     display: none;
+
+}
+
+.contectus {
+     margin-top: 20px;
+     padding: 56px;
+     color: #fff;
+     background-color: blue;
+}
+
+.address {
+     display: flex;
+
+}
+
+.visit {
+     width: 700px;
+
+     height: 400px;
+     margin-top: 10px;
+     font-size: 25px;
+     padding: 20px;
+}
+
+.map iframe {
+     width: 700px;
+
+     height: 400px;
+     border-radius: 10px;
+
+}
+
+#icon_ama {
+     padding: 3px;
+     background-color: white;
+     border-radius: 10px;
+     border: 2px solid rgb(174, 174, 174);
+}
+
+#icon_ama i {
+     padding-top: 5px;
+}
+
+#icon_ama .count {
+     background-color: red;
+
+     border-radius: 50%;
+     padding: 1px;
+
+}
+
+.my_card_main_part {
+     display: flex;
+     justify-content: center;
+     display: none;
+}
+
+.my_card_heading {
+     display: flex;
+     justify-content: space-between;
+     padding: 5px;
+     background-color:black;
+     border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+}
+
+.my_card {
+     border: 1px solid gray;
+     width: 500px;
+     min-height: 300px;
+     margin-top: 20px;
+     margin-bottom: 10px;
+     margin-left: 550px;
+     border-radius: 10px;
+}
+.h2_part{
+color: #eee;
+
+}
+.close_part {
+     font-size: 30px;
+     border-radius: 50px;
+     border: 2px solid gray;
+     cursor: pointer;
+     color: #eee;
+}
+.close_part:hover{
+     opacity: 0.6;
+}

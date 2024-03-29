@@ -1,0 +1,394 @@
+* {
+     padding: 0px;
+     margin: 0px;
+}
+
+.main {
+     width: 100vw;
+     height: 100vh;
+     background-color: white;
+     overflow-x: hidden;
+
+}
+
+
+.main_nav {
+     width: 100vw;
+     height: 30px;
+     font-size: 20px;
+     display: flex;
+     justify-content:space-between;
+     background-color: black;
+     color: white;
+     padding: 10px;
+     padding-right: 25px;
+     position: sticky;
+     padding-left: 10px;
+     top: 0px;
+     z-index: 1;
+
+}
+
+.main_nav .main_navitems a {
+     padding: 10px;
+     text-decoration: none;
+     color: azure;
+
+}
+
+.main_nav .main_navitems a:hover {
+     opacity: 0.7;
+}
+
+.main_nav .main_navitems i {
+     font-size: 25px;
+     margin-right: 30px;
+     margin-left: 5px;
+     cursor: pointer;
+     display: none;
+}
+
+.main_nav .main_navitems i:hover {
+     opacity: 0.7;
+
+}
+
+#Home_page {
+     background: url(girl\ image.jpg)no-repeat;
+     background-size: cover;
+     width: 100vw;
+     height: 100vh;
+     position: relative;
+     border-bottom: 2px solid rgb(167, 155, 155);
+     box-shadow: 0px 5px 10px rgb(189, 182, 182);
+}
+
+@media  screen and (max-width:700px) {
+     #Home_page{background-size: cover;
+          width: 100vw;
+          height: 100vh;
+         font-size: 10px;
+          color: aqua;
+     }
+}
+
+#Home_page .shop_now {
+     padding: 250px;
+
+}
+
+.Trading {
+     color: red;
+
+}
+
+.btn_shop {
+     color: white;
+     background-color: rgba(165, 42, 42, 0.799);
+     width: 150px;
+     height: 40px;
+     border-radius: 5px;
+     border: 2px solid black;
+     cursor: pointer;
+
+}
+
+#items_categories {
+     width: 100%;
+     background-color: white;
+     padding-top: 70px;
+     padding-left: 10px;
+     border-radius: 5px;
+     display: flex;
+     flex-wrap: wrap;
+}
+@media  screen and (max-width:700px) {
+     .short_items{
+          flex-wrap: wrap;
+          background-color: rgba(255, 255, 255, 0.786);
+          border: 2px solid rgb(191, 186, 186);
+          box-shadow: 0px 5px 15px rgb(189, 182, 182), 5px 0px 15px rgb(189, 182, 182);
+     }
+     .categories {
+          width: 0%;
+          font-size: 10px;
+          padding-left: 20px;
+          height: 10000vh;
+          padding: 5px
+     
+     }
+     .buynow1{
+          width: 100vw;
+          height: 70vh;
+     flex-wrap: wrap;
+     justify-content: center;
+     text-align: center;
+     }
+     
+     .man{
+          width: 400px;
+          height: 100vh;
+          border: 1px solid rgb(157, 153, 153);
+     }
+     .man_box{
+          width: 200px;
+          height: 1000vh;
+          border: 1px solid rgb(167, 158, 158);
+          padding:5px;
+         
+     }
+     .woman{
+          width: 600px;
+          height: 85vh;
+          border: 1px solid rgb(177, 172, 172);
+     }
+     .man_img img{
+          width: 100px;
+          height: 25vh;
+          border: 1px solid rgb(207, 196, 196);
+          border-radius: 5px;
+     }
+     .man_cont{
+          padding-left: 5px;
+          padding-top: 5px;
+     }
+     .man_cont a{   background-color: aqua;
+          text-decoration: none;
+          padding: 5px;
+          border-radius: 5px;
+          color: white;
+          
+     }
+     .man_cont p{
+          font-size: 5px;
+     }
+     
+     
+}
+.short_items {
+     width: 96%;
+     height:550px;
+     background-color: rgba(255, 255, 255, 0.786);
+     border: 2px solid rgb(191, 186, 186);
+     display: flex;
+
+     box-shadow: 0px 5px 15px rgb(189, 182, 182), 5px 0px 15px rgb(189, 182, 182);
+}
+
+.aLL_categories {
+     padding-left: 10px;
+     padding-top: 20px;
+     color: black;
+     text-decoration: underline;
+}
+
+.categories {
+     width: 20%;
+     font-size: 30px;
+     padding-left: 40px;
+     height: 100px;
+
+}
+
+.categories h1 {
+     background-color: rgba(255, 255, 255, 0.786);
+     border-bottom: 2px solid rgb(238, 234, 234);
+
+}
+
+.categories a {
+     font-size: 25px;
+     padding-top: 15px;
+     cursor: pointer;
+     opacity: 0.8;
+}
+
+.categories a:hover {
+     color: red;
+}
+
+.categories img {
+     width: 40px;
+     height: 40px;
+     background-color: azure;
+}
+
+#categories_headphone {
+     width: 20vw;
+     height: 150px;
+     border-radius: 10px;
+     padding: 10px;
+     padding-top: 40px;
+     color: white;
+     font-size: 20px;
+     transition: 1s;
+     background: url(headphone.webp)no-repeat;
+     background-size: cover;
+     box-shadow: 0px 5px 10px rgb(189, 182, 182), 5px 0px 10px rgb(189, 182, 182);
+}
+
+#categories_headphone a {
+     font-size: 20px;
+     border-radius: 5px;
+     color: white;
+     text-decoration: none;
+     padding: 10px;
+     background-color: aqua;
+
+}
+
+#categories_headphone:hover {
+     width: 290px;
+     height: 160px;
+}
+
+#categories_Formal {
+     width: 20vw;
+     height: 150px;
+     border-radius: 10px;
+     padding: 10px;
+     padding-top: 40px;
+     color: white;
+     font-size: 20px;
+     transition: 1s;
+     background: url(formal.jpg)no-repeat;
+     background-size: cover;
+     box-shadow: 0px 8px 10px rgb(189, 182, 182), 8px 0px 10px rgb(189, 182, 182);
+}
+
+#categories_Formal a {
+     font-size: 20px;
+     border-radius: 5px;
+     color: white;
+     text-decoration: none;
+     padding: 10px;
+     background-color: aqua;
+
+}
+
+#categories_Formal:hover {
+     width: 290px;
+     grid-template: 160px;
+}
+
+
+#categories_Formalwoman {
+     width: 20vw;
+     height: 150px;
+     border-radius: 10px;
+     padding: 10px;
+     padding-top: 40px;
+     color: white;
+     font-size: 20px;
+     transition: 1s;
+     background: url(formalWoman.jpeg)no-repeat;
+     background-size: cover;
+     box-shadow: 0px 5px 10px rgb(189, 182, 182), 5px 0px 10px rgb(189, 182, 182);
+}
+
+#categories_Formalwoman a {
+     font-size: 20px;
+     border-radius: 5px;
+     color: white;
+     text-decoration: none;
+     padding: 10px;
+     background-color: aqua;
+
+}
+
+#categories_Formalwoman:hover {
+     width: 290px;
+     height: 160px;
+}
+
+#categories_Smart {
+     width: 20vw;
+     height: 150px;
+     border-radius: 10px;
+     padding: 10px;
+     padding-top: 40px;
+     color: white;
+     font-size: 20px;
+     transition: 1s;
+     background: url(Watch.jpeg)no-repeat;
+     background-size: cover;
+     box-shadow: 0px 5px 10px rgb(189, 182, 182), 5px 0px 10px rgb(189, 182, 182);
+}
+
+#categories_Smart a {
+     font-size: 20px;
+     border-radius: 5px;
+     color: white;
+     text-decoration: none;
+     padding: 10px;
+     background-color: aqua;
+
+}
+
+#categories_Smart:hover {
+     width: 290px;
+     height: 160px;
+}
+
+#buynow{ margin: 10px;
+     padding-top: 50px;
+     width: 100vw;
+     height: 100vh;
+ 
+
+}
+.arrival{
+     padding-left: 80px;
+     color: red;
+     text-transform: uppercase;
+     
+}
+
+  
+.buynow1{
+     width: 100vw;
+     height: 70vh;
+display: flex;
+justify-content: space-around;
+}
+
+.man{
+     width: 600px;
+     height: 114vh;
+     border: 1px solid rgb(157, 153, 153);
+}
+.man_box{
+     width: 590px;
+     height: 25vh;
+     border: 1px solid rgb(167, 158, 158);
+     padding:5px;
+ display: flex;
+ justify-content: first baseline;
+}
+.woman{
+     width: 600px;
+     height: 85vh;
+     border: 1px solid rgb(177, 172, 172);
+}
+.man_img img{
+     width: 300px;
+     height: 25vh;
+     border: 1px solid rgb(207, 196, 196);
+     border-radius: 5px;
+}
+.man_cont{
+     padding-left: 5px;
+     padding-top: 10px;
+}
+.man_cont a{   background-color: aqua;
+     text-decoration: none;
+     padding: 5px;
+     border-radius: 5px;
+     color: white;
+}
+.man_cont p{
+     font-size: 20px;
+}
+
+
+
